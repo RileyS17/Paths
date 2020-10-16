@@ -1,8 +1,8 @@
 {
-  "name": "Paths",
+  "name": "paths",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://rileys17.github.io/Paths",
+  "homepage": "http://rileys17.github.io/paths",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
