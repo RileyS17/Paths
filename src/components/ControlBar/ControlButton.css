@@ -1,0 +1,26 @@
+.controlButton {
+    height: 100%;
+    width: 20%;
+    background: #1074e6;
+    border: none;
+    color: #141414;
+    font-weight: 600;
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 20px;
+    font-size: 1.5vmin;
+}
+
+.controlButton:hover {
+    background: #0d68bd;
+    transition: 0.2s;
+}
+
+.controlButton:active {
+    outline: none;
+    background: #0b58a1;
+    transition: 0.2s;
+}
+
+.controlButton:focus {
+    outline: none;
+}

@@ -1,0 +1,19 @@
+.controlBar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #1074e6;
+    height: 55px;
+    -webkit-user-select: none;  
+    -moz-user-select: none;    
+    -ms-user-select: none;      
+    user-select: none;
+}
+
+.controlBar_nav {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    padding: 0;
+}
