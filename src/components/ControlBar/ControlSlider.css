@@ -1,16 +1,16 @@
 .controlSlider_main {
     height: 100%;
-    width: 20%;
+    width: 30%;
     text-align: center;
     position: relative;
     padding-top: 0;
 }
 .sliderDiv {
-    vertical-align: bottom;
+	margin: 0 auto;
 }
 .slider {
     appearance: none;
-    width: 70%;
+    width: 85%;
     background: #d1d1d1;
     border-radius: 3px;
     height: 8px;
@@ -30,22 +30,22 @@
     border-radius: 100%;
     background: #ffa500;
     cursor: pointer;
-  }
+}
 
-  .slider::-moz-range-thumb {
+.slider::-moz-range-thumb {
     width: 20px;
     height: 20px;
     border-radius: 50%;
     background: #ffa500;
     cursor: pointer;
-  }
-  .sliderText {
+}
+
+.sliderText {
     display: grid;
     color: #141414;
     font-weight: 600;
     font-family: Tahoma, Geneva, sans-serif;
     font-size: calc(3px + 1vmin);
-    padding-left: 15%;
     padding-top: 1%;
-    text-align: justify;
-  }
+    text-align: center;
+}

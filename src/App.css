@@ -13,6 +13,10 @@
 .canvas {
     margin-top: 65px;
     margin-left: 10px;
+    -webkit-user-select: none;  
+    -moz-user-select: none;    
+    -ms-user-select: none;      
+    user-select: none;
 }
 
 .help_modal_content {

@@ -17,3 +17,18 @@
     align-items: center;
     padding: 0;
 }
+
+.difficulty_tag {
+    height: 100%;
+    line-height: 100%;
+    width: 20%;
+    margin-top: 0 auto;
+    background: #1074e6;
+    font-weight: 600;
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 20px;
+    font-size: 1.5vmin;
+    text-align: center;
+    outline: none;
+    border: none;
+}

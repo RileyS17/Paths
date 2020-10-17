@@ -10,7 +10,7 @@ const ControlSlider = (props) => {
     }
     return (
         <div className="controlSlider_main">
-            <div className="sliderText">Points: {value}</div>
+            <div className="sliderText">{value}</div>
             <div className="sliderDiv">
                 <input type="range" min="4" max="20" value={value} className="slider" onChange={handleChange} />
             </div>

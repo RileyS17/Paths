@@ -7,11 +7,12 @@ const ControlBar = (props) => {
     return (
         <header className="controlBar">
             <nav className="controlBar_nav">
+                <button className="difficulty_tag">Diffuclty</button>
                 <ControlSlider onNumVertChange={props.onNumVertChange}/>
                 <ControlButton name="New" clickFunc={props.genGraphFunc}/>
                 <ControlButton name="Reset" clickFunc={props.softReset}/>
                 <ControlButton name="Help" clickFunc={props.openHelp}/>
-                <ControlButton name="Settings"/>
+                
             </nav>
         </header>
     );
