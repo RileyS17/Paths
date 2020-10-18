@@ -37,7 +37,7 @@ const checkEdgePosibilties = (currentVertex, edgeList) => {
 
 export const draw = (ctx, frameCount, vertexList, edgeList, mouseXy, clickXy) => {
     ctx.clearRect(0, 0, ctx.canvas.width, ctx.canvas.height);
-    ctx.fillStyle = '#141414';
+    ctx.fillStyle = '#292929';
     ctx.fillRect(0, 0, ctx.canvas.width, ctx.canvas.height);
 
     // Draws edges

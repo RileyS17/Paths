@@ -70,7 +70,7 @@ const App = () => {
 					Possible paths are highlighted orange, used paths are blue, and unavailable paths are black. <br />
 					<ul> The 'New' button generates a new set of paths. </ul>
 					<ul> The 'Reset' button resets the current puzzle to it's starting state. </ul>
-					<ul> The slider is used to choose how many points you want on the graph. </ul><br />
+					<ul> The slider is used to choose the number of points. </ul><br />
 					If you're having any sizing issues, try refreshing the page.
 				</div>
 			</Modal>

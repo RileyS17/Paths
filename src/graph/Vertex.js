@@ -1,7 +1,7 @@
 export default class Vertex {
     constructor(id) {
         this._id = id;
-        this._xy = [0,0];
+        this._xy = null;
     }
     get id() {
         return this._id;
